@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tema">#2196F3</color>
+
+    <color name="biru1">#005073</color>
+    <color name="biru2">#107dac</color>
+    <color name="biru3">#189ad3</color>
+    <color name="biru4">#1ebbd7</color>
+    <color name="biru5">#71c7ec</color>
+
+    <color name="colorPrimary">#7C8DFF</color>
+    <color name="colorPrimaryDark">#333984</color>
+    <color name="colorAccent">#7C8DFF</color>
+
+</resources>

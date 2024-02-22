@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo3"
+        android:label="Happy Learning English"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LanguageApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".VideoBelajar"
+            android:exported="false" />
+        <activity
+            android:name=".UploadVideo"
+            android:exported="false" />
+        <activity
+            android:name=".InputVideo"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPDF"
+            android:exported="false" />
+        <activity
+            android:name=".InputMateri"
+            android:exported="false" />
+        <activity
+            android:name=".MateriTambahan"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Latihan3"
+            android:exported="false" />
+        <activity
+            android:name=".Tense"
+            android:exported="false" />
+        <activity
+            android:name=".Grammar"
+            android:exported="false" />
+        <activity
+            android:name=".videoPembelajaran"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bab5"
+            android:exported="false" />
+        <activity
+            android:name=".Bab4"
+            android:exported="false" />
+        <activity
+            android:name=".Bab3"
+            android:exported="false" />
+        <activity
+            android:name=".Bab2"
+            android:exported="false" />
+        <activity
+            android:name=".HasilLatihan2"
+            android:exported="false" />
+        <activity
+            android:name=".Latihan2"
+            android:exported="false" />
+        <activity
+            android:name=".Latihan1"
+            android:exported="false" />
+        <activity
+            android:name=".KamusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bab1"
+            android:exported="false" />
+        <activity
+            android:name=".MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".HasilLatihan1" />
+    </application>
+
+</manifest>

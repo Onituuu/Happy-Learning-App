@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408835139508",
+    "project_id": "rullaaa-1a890",
+    "storage_bucket": "rullaaa-1a890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408835139508:android:20c22df36070f75c00f4e1",
+        "android_client_info": {
+          "package_name": "com.example.languageapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPs4RXFrRwmy7VIpiBb4ziPfEOkZ6YNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
